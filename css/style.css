@@ -1,0 +1,103 @@
+:root {
+    --main-color: #343a40;
+    --primary-color: #007bff;
+    --primary-hover-color: #5f81d6;
+    --input-bg-color: #495057;
+    --input-text-color: #b3a8a8; 
+    --btn-bg-color: #007bff;
+    --btn-hover-color: #4d81ba;
+    --navbar-bg-color: #212529;
+  }
+
+  body {
+    background-color: #f8f9fa;
+  }
+
+  .card {
+    background-color: var(--main-color);
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card h1 {
+    margin-bottom: 1rem;
+  }
+
+  .form-control {
+    background-color: var(--input-bg-color);
+    color: var(--input-text-color); /* Dark text color */
+    border: none;
+  }
+
+  .form-control::placeholder {
+    color: var(--input-text-color); /* Dark text color */
+  }
+
+  .form-control:focus {
+    background-color: var(--input-bg-color);
+    color: var(--input-text-color); /* Dark text color */
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+  }
+
+  .btn-primary-custom {
+    background-color: var(--btn-bg-color);
+    color: #ffffff;
+    border: none;
+  }
+
+  .btn-primary-custom:hover {
+    background-color: var(--btn-hover-color);
+  }
+
+  .link-btn {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+
+  .link-btn:hover {
+    text-decoration: underline;
+    color: var(--primary-hover-color);
+  }
+
+  .navbar {
+    background-color: var(--navbar-bg-color);
+    color: #ffffff;
+  }
+
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+  .vh-100 {
+    height: 100vh;
+  }
+
+  .welcome {
+    height: 100%;
+    text-align: center;
+  }
+
+  .welcome h1 {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+
+  .message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .Smart-login{
+    text-decoration: none !important
+  }
